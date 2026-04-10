@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL6rf2MoXmA"
+#define BLYNK_TEMPLATE_ID "INSERT YOUR ID"
 #define BLYNK_TEMPLATE_NAME "imu"
-#define BLYNK_AUTH_TOKEN "axHlSwIS2vEvjp2a4uu4Pd7aU8J1_hQt"
+#define BLYNK_AUTH_TOKEN "INSERT YOUR TOKEN"
 
 #include <Wire.h>
 #include <Adafruit_MPU6050.h>
@@ -12,8 +12,8 @@
 Adafruit_MPU6050 mpu;
 
 // WiFi credentials
-char ssid[] = "Nonet";
-char pass[] = "123456789";
+char ssid[] = "";// Your Wi-Fi SSID
+char pass[] = ""; // Your Wi-Fi password
 
 typedef struct struct_message {
   float distance;
