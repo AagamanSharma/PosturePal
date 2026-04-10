@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL6rf2MoXmA"
+#define BLYNK_TEMPLATE_ID "INSERT YOUR ID"
 #define BLYNK_TEMPLATE_NAME "imu"
-#define BLYNK_AUTH_TOKEN "axHlSwIS2vEvjp2a4uu4Pd7aU8J1_hQt"
+#define BLYNK_AUTH_TOKEN "INSERT YOUR TOKEN"
 
 #include <esp_now.h>
 #include <WiFi.h>
@@ -15,8 +15,8 @@
 NewPing sonar(TRIGGER_PIN, ECHO_PIN, MAX_DISTANCE);
 
 // Blynk authentication token
-char ssid[] = "Nonet"; // Your Wi-Fi SSID
-char pass[] = "123456789"; // Your Wi-Fi password
+char ssid[] = ""; // Your Wi-Fi SSID
+char pass[] = ""; // Your Wi-Fi password
 
 // Virtual Pin for distance and control
 #define DISTANCE_VPIN V3
