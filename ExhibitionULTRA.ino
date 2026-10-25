@@ -7,9 +7,9 @@
 #include <NewPing.h>
 #include <BlynkSimpleEsp32.h> // Include Blynk library
 
-#define TRIGGER_PIN 4
-#define ECHO_PIN 2
-#define MAX_DISTANCE 200
+#define TRIGGER_PIN 4 // Define a trigger pin
+#define ECHO_PIN 2 // Define a echo pin
+#define MAX_DISTANCE 200 // Define the maximum distance from sensor to target
 #define BUZZER_PIN 5 // Define the buzzer pin
 
 NewPing sonar(TRIGGER_PIN, ECHO_PIN, MAX_DISTANCE);
